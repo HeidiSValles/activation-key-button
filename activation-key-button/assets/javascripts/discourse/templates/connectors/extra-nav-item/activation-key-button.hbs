@@ -1,20 +1,23 @@
-{{#if currentUser.can_see_topic_group_button}}                                
-<h3>                                                                          
-  <button                                                                     
-    class="btn topic-group-button"                                            
-    title={{siteSettings.activation_key_button_title}}                           
-    {{action "toggleBody"}}>{{siteSettings.activation_key_button_label}}         
-  </button>                                                                   
-  {{#if isShowingBody}}                                                       
-<form>                                                                        
-        <h3>Activation Request Key:</h3>                                      
-        <input type="text">                                                   
-        <br>                                                                  
-        <button type="submit">Validate Request</button>                       
-        <br>                                                                  
-        <h3>Activation Key</h3>                                               
-</form>                                                                       
-  {{/if}}                                                                     
-</h3>                                                                         
-{{/if}}                                                                       
+{{#if currentUser.can_see_activation_key_button}}     
+<h3>  
+  <button
+    class="btn topic-group-button" 
+    title={{siteSettings.activation_key_button_title}}
+    {{action "toggleBody"}}>{{siteSettings.activation_key_button_label}} 
+  </button>                            
+  {{#if isShowingBody}}                 
+	<form action="http(s)://www.hashemian.com/tools/form-post-tester.php/testing3456"	method="post"> 
+        <h3>Activation Request Key:</h3>                              <p>       
+        <input type="text" value="">                   
+        </p>
+        <p>                       
+        <button type="submit" value="Submit">Validate Request</button>  
+        </p>
+        <p>
+        <h3>Activation Key</h3>  
+        </p>
+    </form>                               
+  {{/if}}      
+</h3>                                  
+{{/if}}                                
                                                                               
