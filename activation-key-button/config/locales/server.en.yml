@@ -1,0 +1,7 @@
+en:
+  site_settings:
+    activation_key_button_enabled: "Enable topic group button plugin"
+    activation_key_button_url: "Button URL (&lt;USERNAME&gt; &lt;USER_ID&gt; and &lt;TOPIC_ID&gt; will be replaced)"
+    activation_key_button_title: "Button title"
+    activation_key_button_label: "Button label"
+    activation_key_button_allowed_group: "Button will only be visible to members of specified group"
