@@ -2,9 +2,6 @@ plugins:
   activation_key_button_enabled:
     default: true
     client: true
-  activation_key_button_url:
-    default: "https://www.discourse.org"
-    client: true
   activation_key_button_title:
     default: "Button description here.."
     client: true
