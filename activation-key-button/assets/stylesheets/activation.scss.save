@@ -1,0 +1,9 @@
+.isShowingBody:after{
+	content: '\02795'; /* Unicode character for "plussign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+button.btn.topic-group-button{         position:absolute;         border: 1px solid #008CBA; }

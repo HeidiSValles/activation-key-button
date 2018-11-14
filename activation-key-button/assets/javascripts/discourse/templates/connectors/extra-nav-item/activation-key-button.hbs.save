@@ -16,14 +16,11 @@
         <p>                       
 	<button {{action "callAPI"}} type="submit" class="activationButton" id="activationButton" name="activationButton">Validate Request</button>         
 	</p>
-        <input type="hidden" id="userName" name="userName" value={{currentUser.username}}>
-	<br>
+        <br>
 	<p>
         <h3>License Key</h3>  
         </p>
 	<h2 id="output"></h2>
-	<br>
-	<h4 id="activationKeyUsed"></h4>
 	<br>
     </form>                               
   {{/if}}      
